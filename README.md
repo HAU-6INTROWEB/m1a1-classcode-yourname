@@ -31,8 +31,13 @@ the tests can read it. Don't put passwords or secrets here.
 
 ### 2. Build the webpage
 
-Open [`index.html`](index.html). It contains only a comment describing what to
-build. Replace it with a complete HTML5 page that includes:
+> **Work in the [`src/`](src/) folder.** That is the only folder you edit. Your
+> webpage files (now and in later activities) live there. Everything else in
+> this repo (`test/`, `package.json`, `.github/`) is course plumbing — leave it
+> alone.
+
+Open [`src/index.html`](src/index.html). It contains only a comment describing
+what to build. Replace it with a complete HTML5 page that includes:
 
 1. The **HTML5 document type declaration** on the first line.
 2. The **root element** that wraps the whole page, with its **language**
@@ -42,12 +47,12 @@ build. Replace it with a complete HTML5 page that includes:
 4. A **body** section with a **heading or paragraph** that welcomes the
    visitor (for example, `Welcome to My First Webpage`).
 
-The comment in `index.html` names each tag to research in Chapter 1. Look the
-tags up and write them yourself — that is the point of the activity.
+The comment in `src/index.html` names each tag to research in Chapter 1. Look
+the tags up and write them yourself — that is the point of the activity.
 
 ### 3. View it in a browser
 
-Double-click `index.html` (or right-click → *Open with* your browser). You
+Double-click `src/index.html` (or right-click → *Open with* your browser). You
 should see your welcome message and your title on the browser tab.
 
 ## Set up your repo
@@ -89,7 +94,7 @@ npm test
 
 This activity is graded by **6 tests** (1 point each). They check:
 
-- ✅ `index.html` declares the HTML5 doctype
+- ✅ `src/index.html` declares the HTML5 doctype
 - ✅ the `<html>` element has a `lang` attribute
 - ✅ the page has a non-empty `<title>`
 - ✅ the page declares its character encoding (`<meta charset="utf-8">`)

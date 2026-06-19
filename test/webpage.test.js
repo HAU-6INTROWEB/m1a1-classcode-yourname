@@ -6,7 +6,7 @@ import { JSDOM } from 'jsdom'
 const read = (rel) =>
   readFileSync(fileURLToPath(new URL(rel, import.meta.url)), 'utf8')
 
-const dom = new JSDOM(read('../index.html'))
+const dom = new JSDOM(read('../src/index.html'))
 const doc = dom.window.document
 
 describe('Activity 1 – Create a Basic Webpage', () => {
