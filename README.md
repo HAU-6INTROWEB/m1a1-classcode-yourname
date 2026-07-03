@@ -1,4 +1,4 @@
-# Module 1 – Activity 1 – Create a Basic Webpage
+# Module 1 - Activity 1 - Create a Basic Webpage
 
 [![Made with Claude](https://img.shields.io/badge/Made_with-Claude-D97757?logo=anthropic&logoColor=white)](https://tjakoen.github.io/notes/ten-times-zero)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
@@ -38,7 +38,7 @@ the tests can read it. Don't put passwords or secrets here.
 
 > **Work in the [`src/`](src/) folder.** That is the only folder you edit. Your
 > webpage files (now and in later activities) live there. Everything else in
-> this repo (`test/`, `package.json`, `.github/`) is course plumbing — leave it
+> this repo (`test/`, `package.json`, `.github/`) is course plumbing - leave it
 > alone.
 
 Open [`src/index.html`](src/index.html). It contains only a comment describing
@@ -53,7 +53,7 @@ what to build. Replace it with a complete HTML5 page that includes:
    visitor (for example, `Welcome to My First Webpage`).
 
 The comment in `src/index.html` names each tag to research in Chapter 1. Look
-the tags up and write them yourself — that is the point of the activity.
+the tags up and write them yourself - that is the point of the activity.
 
 ### 3. View it in a browser
 
